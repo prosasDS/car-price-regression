@@ -58,7 +58,7 @@ def predict():
         if output<0:
             return render_template('index.html',prediction_texts="Sorry, this car's market price cannot be estimated")
         else:
-            return render_template('index.html',prediction_text="Market price for this car is around {}".format(output))
+            return render_template('index.html',prediction_text="Market price for this car is around {} Indian Rupees".format(output))
     else:
         return render_template('index.html')
 

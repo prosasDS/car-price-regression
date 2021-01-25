@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Car Price Predictor</title>
@@ -20,32 +19,24 @@
 
     <div style="color:#0366d6">
         <form action="{{ url_for('predict')}}" method="post">
-            <h3>Car's year?</h3>
             <input id="first" name="Year" type="number " placeholder="Car's year? eg. 2014">
-            <h3>What is the car's mileage(in kilometers)?</h3><input id="third" name="Kms_Driven" required="required">
-            <h3>How many owners has the car had?</h3><br><input id="fourth" name="Owner" required="required">
-            <h3>What is the fuel type?</h3><br><select name="Fuel_Type_Petrol" id="fuel" required="required">
+            <input id="third" name="Kms_Driven" required="required" placeholder="Car's Mileage? (in Kms) eg. 70000">
+            <input id="fourth" name="Owner" required="required" placeholder="Number of owners the car has had? eg. 2">
+            <select name="Fuel_Type_Petrol" id="fuel" required="required">
                 <option value="Petrol">Petrol</option>
                 <option value="Diesel">Diesel</option>
-                <option value="Diesel">CNG</option>
             </select>
-            <h3>Are you a dealership or individual?</h3><br><select name="Seller_Type_Individual" id="resea" required="required">
-                <option value="Dealer">Dealer</option>
-                <option value="Individual">Individual</option>
+            <select name="Seller_Type_Individual" id="resea" required="required">
+                <option value="Dealer">Dealership seller</option>
+                <option value="Individual">Individual seller</option>
             </select>
-            <h3>Transmission type</h3><br><select name="Transmission_Mannual" id="research" required="required">
-                <option value="Mannual">Manual Car</option>
-                <option value="Automatic">Automatic Car</option>
+            <select name="Transmission_Mannual" id="research" required="required">
+                <option value="Mannual">Manual Transmission</option>
+                <option value="Automatic">Automatic Transmission</option>
             </select>
             <br><br><button id="sub" type="submit ">Predict</button>
             <br>
-
-
-
-
         </form>
-
-
         <br><br><h3>{{ prediction_text }}<h3>
         <!-- Footer -->
        <div class='footer'>

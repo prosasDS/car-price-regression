@@ -26,13 +26,13 @@ body {
             bottom: 9%;
             height: 850px;
             right: 30%;
-            padding: 200px;
+            padding: 15px;
             margin: 0px;
             font-size: 14px;
         }
         
         #fuel {
-            width: 83px;
+            width: 100px;
             height: 43px;
             text-align: center;
             border-radius: 14px;
@@ -44,7 +44,7 @@ body {
         }
         
         #research {
-            width: 99px;
+            width: 100px;
             height: 43px;
             text-align: center;
             border-radius: 14px;
@@ -56,7 +56,7 @@ body {
         }
         
         #resea {
-            width: 99px;
+            width: 100px;
             height: 43px;
             text-align: center;
             border-radius: 14px;
@@ -68,7 +68,7 @@ body {
         }
         
         #sub {
-            width: 120px;
+            width: 100px;
             height: 43px;
             text-align: center;
             border-radius: 14px;

@@ -2,6 +2,7 @@ body {
             background-color: #24292e;
             text-align: center;
             padding: 0px;
+            font-family: 'Montserrat';
         }
         
         #research {
@@ -15,7 +16,7 @@ body {
             border-radius: 60px;
             border-color: 45px;
             border-style: solid;
-            font-family: cursive;
+            font-family: 'Montserrat';
             text-align: center;
             background-color: rgb(168, 131, 61);
             font-size: medium;

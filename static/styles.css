@@ -12,5 +12,10 @@
     display: block;
     background-color: #2c363a;
     font-family: 'Montserrat';
-    font-size: 32px;
+    font-size: 28px;
+}
+
+.description{
+    font-family: 'Montserrat';
+    font-size: 15px;
 }

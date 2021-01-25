@@ -11,16 +11,20 @@
 
 <body>
     <!-- Website Title -->
-    <div class="container">
-        <h2 class='container-heading'><span class="heading_font">Car Price Predictor</span></h2>
-        <div class='description'>
-            <p>A Machine Learning Web App, Built with Flask, Deployed using Heroku.</p>
-        </div>
+    <div class="header">
+        <div class="container">
+            <h2 class='container-heading'><span class="heading_font">Car Price Predictor</span></h2>
+            <div class='description'>
+                <p>A Machine Learning Web App, Built with Flask, Deployed using Heroku.</p>
+            </div>
+         </div>
     </div>
-
-    <div style="color:#0366d6">
-        <form action="{{ url_for('predict')}}" method="post">
-            <input id="first" name="Year" type="number " placeholder="Car's year? eg. 2014"><br>
+    
+ 
+    <!-- Text Area -->
+    	<div class="ml-container">
+    		<form action="{{ url_for('predict') }}" method="POST">
+                <input id="first" name="Year" type="number " placeholder="Car's year? eg. 2014"><br>
             <input id="third" name="Kms_Driven" required="required" placeholder="Car's Mileage? (in Kms) eg. 70000"><br>
             <input id="fourth" name="Owner" required="required" placeholder="Number of owners the car has had? eg. 2"><br>
             <h3> Fuel Type: <h3> 
@@ -43,8 +47,10 @@
             </select>
             <br><br><button id="sub" type="submit ">Predict</button>
             <br>
-        </form>
-        <br><br><h3>{{ prediction_text }}<h3>
+        		<input type="submit" class="my-cta-button" value="Predict">
+        	</form>
+    	</div>
+
         <!-- Footer -->
        <div class='footer'>
            <div class="contact">

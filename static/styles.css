@@ -26,7 +26,7 @@ body {
             bottom: 9%;
             height: 850px;
             right: 30%;
-            padding: 20px;
+            padding: 200px;
             margin: 0px;
             font-size: 14px;
         }
@@ -40,7 +40,7 @@ body {
         }
         
         #fuel:hover {
-            background-color: coral;
+            background-color: #0366d6;
         }
         
         #research {
@@ -52,7 +52,7 @@ body {
         }
         
         #research:hover {
-            background-color: coral;
+            background-color: #0366d6;
         }
         
         #resea {
@@ -64,7 +64,7 @@ body {
         }
         
         #resea:hover {
-            background-color: coral;
+            background-color: #0366d6;
         }
         
         #sub {

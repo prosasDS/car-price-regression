@@ -22,17 +22,23 @@
             <input id="first" name="Year" type="number " placeholder="Car's year? eg. 2014"><br>
             <input id="third" name="Kms_Driven" required="required" placeholder="Car's Mileage? (in Kms) eg. 70000"><br>
             <input id="fourth" name="Owner" required="required" placeholder="Number of owners the car has had? eg. 2"><br>
-            <select name="Fuel_Type_Petrol" id="fuel" required="required"><br>
+            <h3> Fuel Type: <h3> 
+            <br>
+            <select name="Fuel_Type_Petrol" id="fuel" required="required">
                 <option value="Petrol">Petrol</option>
                 <option value="Diesel">Diesel</option>
             </select>
+            <h3> Who's selling the car?: <h3> 
+            <br>
             <select name="Seller_Type_Individual" id="resea" required="required"><br>
                 <option value="Dealer">Dealership seller</option>
                 <option value="Individual">Individual seller</option>
             </select>
+            <h3> Transmission: <h3> 
+            <br>
             <select name="Transmission_Mannual" id="research" required="required"><br>
-                <option value="Mannual">Manual Transmission</option>
-                <option value="Automatic">Automatic Transmission</option>
+                <option value="Mannual">Manual</option>
+                <option value="Automatic">Automatic</option>
             </select>
             <br><br><button id="sub" type="submit ">Predict</button>
             <br>

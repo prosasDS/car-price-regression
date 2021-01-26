@@ -11,12 +11,14 @@
     height: 80px;
     display: block;
     background-color: #2c363a;
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 100;
-    color: #eb4e00;
-    font-size: 35px;
+    
 }
-
+.heading_font{
+    font-family: 'Libre Franklin', sans-serif;
+    font-color: #eb4e00;
+    font-weight: 100;
+    font-size: 35px
+}
 .blank{
     width: 100%;
     height: 150px;

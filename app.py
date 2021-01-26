@@ -47,7 +47,7 @@ def predict():
         else:
             Seller_Type_Individual = 0	
             
-        Transmission_Mannual=request.form['Transmission_Mannual']
+        Transmission_Mannual=request.form['Transmission_Manual']
         if(Transmission_Mannual == 'Mannual'):
             Transmission_Mannual = 1
         else:

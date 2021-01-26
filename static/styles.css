@@ -27,7 +27,8 @@
 .description{
     font-family: 'Gentium Basic', serif;
     font-weight: 100;
-    font-size: 12px;
+    font-size: 6px;
+    color: #000000;
 }
     
 .first{

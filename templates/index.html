@@ -23,7 +23,7 @@
   <div class="ml-container">
     <form action="{{ url_for('predict') }}" method="POST">
       <input class="form-input" type="number" name="Year" placeholder="Car's Year eg. 2014"><br>
-      <input class="form-input" type="number" name="Kms_driven" placeholder="Car's Mileage (in kilometers) eg. 800000"><br>
+      <input class="form-input" type="number" name="Kms_Driven" placeholder="Car's Mileage (in kilometers) eg. 800000"><br>
       <input class="form-input" type="number" name="Owner" placeholder="Number of owners the car has had eg. 2"><br>
       <!-- Drop down lists -->
       <select class="form-input" name="Fuel_Type_Petrol" id="fourth" required="required"><br><br>
@@ -36,7 +36,7 @@
                 <option value="Dealer">Dealership</option>
                 <option value="Individual">Individual</option>
       </select><br>
-      <select class="form-input" name="Transmission_Mannual" id="sixth" required="required"><br><br>
+      <select class="form-input" name="Transmission_Manual" id="sixth" required="required"><br><br>
                 <option value="" disabled selected>Transmission type</option>
                 <option value="Mannual">Manual</option>
                 <option value="Automatic">Automatic</option>

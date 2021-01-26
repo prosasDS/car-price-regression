@@ -27,21 +27,21 @@
     <!-- Text Area -->
     	<div class="ml-container">
     		<form action="{{ url_for('predict') }}" method="POST">
-            <input id="1" name="Year" type="number " placeholder="Car's year? eg. 2014"><br>
-            <input id="2" name="Kms_Driven" required="required" placeholder="Car's Mileage? (in Kms) eg. 70000"><br>
-            <input id="3" name="Owner" required="required" placeholder="Number of owners the car has had? eg. 2"><br>
+            <input id="first" name="Year" type="number " placeholder="Car's year? eg. 2014"><br>
+            <input id="second" name="Kms_Driven" required="required" placeholder="Car's Mileage? (in Kms) eg. 70000"><br>
+            <input id="third" name="Owner" required="required" placeholder="Number of owners the car has had? eg. 2"><br>
             <select name="Fuel_Type_Petrol" id="4" required="required"><br>
-                <option value="" disabled selected>Fuel type</option>
+                <option value="" disabled selected>Select Fuel type</option>
                 <option value="Petrol">Petrol</option>
                 <option value="Diesel">Diesel</option>
             </select>
             <select name="Seller_Type_Individual" id="5" required="required"><br>
-                <option value="" disabled selected>Seller type</option>
+                <option value="" disabled selected>Select Seller type</option>
                 <option value="Dealer">Dealership</option>
                 <option value="Individual">Individual</option>
             </select>
             <select name="Transmission_Mannual" id="6" required="required"><br>
-                <option value="" disabled selected>Transmission type</option>
+                <option value="" disabled selected>Select Transmission type</option>
                 <option value="Mannual">Manual</option>
                 <option value="Automatic">Automatic</option>
             </select>

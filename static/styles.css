@@ -12,6 +12,7 @@
     display: block;
     background-color: #2c363a;
     font-family: 'Libre Franklin', sans-serif;
+    font-weight: 200;
     color: #eb4e00;
     font-size: 28px;
 }
@@ -25,7 +26,7 @@
 
 .description{
     font-family: 'Gentium Basic', serif;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 12px;
 }
     

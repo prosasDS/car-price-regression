@@ -16,6 +16,7 @@
 .heading_font{
     font-family: 'Libre Franklin', sans-serif;
     font-color: #eb4e00;
+    color:#eb4e00;
     font-weight: 100;
     font-size: 35px
 }
@@ -30,6 +31,7 @@
     font-family: 'Gentium Basic', serif;
     font-weight: 100;
     font-size: 30px;
+    color:#eb4e00;
     font-color: #eb4e00;
 }
     

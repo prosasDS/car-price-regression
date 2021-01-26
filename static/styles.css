@@ -34,35 +34,7 @@
     font-size: 30px;
     color:#eb4e00;
     font-color: #eb4e00;
-}
-    
-.first{
-    width: 480px;
-    height: 15px;
-}
-.second{
-    width: 480px;
-    height: 15px;
-}
-.third{
-    width: 480px;
-    height: 15px;
-    .first{
-    width: 480px;
-    height: 15px;
-}
-.fourth{
-    width: 480px;
-    height: 15px;
-}
-.fifth{
-    width: 480px;
-    height: 15px;
-}
-.sixth{
-    width: 480px;
-    height: 15px;
-}
+	
 .footer{
     width: 100%;
     height: -160px;
@@ -88,7 +60,6 @@
     padding: 10px 36px;
     color: #000000;
     display: inline-block;
-   	font: italic bold 20px/1 "Calibri", sans-serif;
     text-align: center;
 }
 
